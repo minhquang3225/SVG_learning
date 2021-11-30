@@ -1,0 +1,45 @@
+Body{
+  Margin: 0;
+  Box-sizing: border-box;
+  Padding :0;
+  Background-color: #12181b ;
+  Color: white;
+  height: 500px ;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: column;
+  width: 100%;
+  height: 100% ;
+}
+svg{
+  width: 500px;
+  height: 50px;
+  background-color: black;
+  margin-bottom: 50px;
+ 
+}
+.svg *{
+ 
+ fill: #BB4AFF;
+ stroke-width: 50px;
+ stroke: lime;
+ 
+} 
+#line3{
+ stroke-linecap: round;
+}
+#line4{
+ stroke-linecap: square;
+}
+#line5{
+  stroke-dasharray: 5;
+}
+#line6{
+  stroke-dasharray: 5, 10, 15 ;
+}
+#line7{
+  stroke-dasharray: 20,10,5,5,5,10;
+}
