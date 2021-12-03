@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<link rel="stylesheet" href="./css/3.css">
+				<title>text in svg</title>
+</head>
+<body>
+				<div class="container"> 
+								<h1> fill </h1> 
+								<svg height="20" width="200">
+												<text id="text1" x="5%" y="50%">
+													keep moving forward 👌			
+												</text>
+								</svg> 
+        </div>
+				<div class="container"> 
+								<h1> center align</h1> 
+								<h6 style="margin-top: -10px"> dominant-baseline, text-anchor để lấy gốc tọa độ tại trung tâm</h6>
+								<svg height="20" width="200">
+												<text id="text2"  																dominant-baseline = "middle" 
+																text-anchor="middle";
+																	x="50%"						
+																	y="50%">
+													keep moving forward 👌			
+												</text>
+								</svg> 
+        </div>
+    				<div class="container"> 
+								<h1> rotate text </h1> 
+								<h6 style="margin-top: -10px">sử dụng transform-origin(lấy trục quay ở center) và rotate</h6>
+								<svg>
+										<text id="text3"
+											dominant-baseline = "middle" 
+																text-anchor="middle";
+												x="50%"						
+												y="50%">
+													keep moving forward 👌			
+												</text>
+								</svg> 
+        </div>
+        
+</body>
+</html>
