@@ -26,6 +26,10 @@ text{
  fill: #ff15d2;
  
 }
+#text2{
+				dominant-baseline: middle;
+				text-anchor: middle;
+}
 #text3{
       transform-origin: center;
 				transform: rotate(25deg);

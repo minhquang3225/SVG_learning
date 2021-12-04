@@ -18,7 +18,7 @@ h1{
   display: block;
 }
 SVG{
-  
+  height: 200px;
   display: flex;
   align-items: center;
   Justify-content: center ;
@@ -27,9 +27,12 @@ SVG{
  width: 300px;
  height: 200px;
  fill: #BB4AFF;
- stroke-width: 16px;
+ stroke-width: 5px;
  stroke: #bb4aff;
 }
-#rect polyline{
+#rect polyline, #rect line{
   fill:none;
+  stroke-width: 16px ; 
 }
+#rect rect{
+				height: 160px;
