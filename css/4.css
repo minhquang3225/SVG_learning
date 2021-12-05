@@ -1,13 +1,52 @@
 body{margin: 0;padding :0;box-sizing: border-box;background-color: #12181b ;color: white;height: 500px ; } 
 .container{display: flex;align-items: center; justify-content: center; flex-direction: column; width: 100%;padding: 30px 0; } 
-h3{
-				text-align: center;
-}
-svg{width: 90%;height: 600px;} 
+h3{text-align: center;}
+svg{width: 90%;height: 160px; fill: transparent;} 
+svg path{stroke: #ff9d2b; stroke-width: 5px;}
 
 #svg1 path{
-				stroke: #ff9d2b; 
 				stroke-width: 10px;
-				fill: blue;
+}
+#svg1 path{
+				fill:#1d122a;
+}
+#svg5 path{
+				stroke-width: 2px;
+}
+#svg3 .line{
+				stroke-width: 0;
+}
+.line{
+				stroke: lime; 
+				stroke-width: 0.25px;
+}
+#svg6{
+				heigth: 400px;
+}
+#svg6 path{
+				stroke-width: 5px;
+}
+#svg6 .line{
+				stroke.width: 0px;
+}
+#svg6 circle {
+				fill:Green ;
+				stroke: white; 
+}
+#svg6 .ctr{
+				fill: red;
+}
+.ctrline{
+				stroke: red;
+				stroke-width: 1px;
+				stroke-opacity: .5;
 }
 
+#mainline{
+				stroke: white ; 
+				stroke-opacity: .2;
+}
+#svg7 {
+				border: 1px solid white;
+				stroke-linecap: round; 
+				}
